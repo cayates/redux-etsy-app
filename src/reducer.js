@@ -28,7 +28,7 @@ const reducer = function(state = initialState, action) {
             }
         })
         console.log(filterSearch)
-        return filterSearch;
+        return {products: filterSearch};
         default:
         return state;
         break;

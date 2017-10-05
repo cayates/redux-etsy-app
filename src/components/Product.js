@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class Product extends Component {
     render() {
-        const {product} = this.props;
+        const product = this.props;
 
         return (
             <li>

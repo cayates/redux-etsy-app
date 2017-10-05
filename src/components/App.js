@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import 'shoelace-css/dist/shoelace.css';
 import '../styles/App.css';
 
@@ -9,7 +9,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <h2>Show "Belt" related items</h2>
+                <h2>Show "Belt" related items...</h2>
                 <FilterProducts/>
                 <ProductList/>
             </div>
