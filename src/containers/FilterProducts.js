@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {filterProducts} from "../actions";
+import {filterProducts} from "../store/actions/actions";
 
 class FilterProducts extends Component {
     createFilterRadio(value, text) {

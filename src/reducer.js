@@ -1,5 +1,5 @@
 import update from 'immutability-helper';
-import {FILTER_PRODUCTS} from "./actions";
+import {FILTER_PRODUCTS} from "./store/actions/actions";
 import products from './data/products';
 
 // Define initial state object
